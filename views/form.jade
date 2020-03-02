@@ -1,0 +1,23 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+    body
+        form(action='/form_receiver' method='get')
+            p
+                h1 GET METHOD
+            p
+                input(type='text' name='title')
+            p
+                textarea(name='description')
+            p
+                input(type='submit')
+        form(action='/form_receiver' method='post')
+            p
+                h1 POST METHOD
+            p
+                input(type='text' name='title')
+            p
+                textarea(name='description')
+            p
+                input(type='submit')
